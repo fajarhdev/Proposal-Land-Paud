@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>
+			PAUD Al-Ikhlas - Pendidikan Anak Usia Dini Berbasis Islam
+		</title>
+		<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap");
+
+			body {
+				font-family: "Poppins", sans-serif;
+			}
+
+			.arabic {
+				font-family: "Amiri", serif;
+			}
+
+			.hero-pattern {
+				background-image: url("https://images.unsplash.com/photo-1565689890021-1dc143c8b3b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+				background-size: cover;
+				background-position: center;
+				background-blend-mode: overlay;
+			}
+		</style>
+	</head>
+	<body class="bg-gray-50">
+		<!-- Header/Navbar -->
+		<header class="bg-white shadow-md sticky top-0 z-50">
+			<div
+				class="container mx-auto px-4 py-3 flex justify-between items-center">
+				<div class="flex items-center space-x-2">
+					<i
+						class="fas fa-mosque text-2xl text-green-600"></i>
+					<a
+						href="index.html"
+						class="text-xl font-bold text-gray-800"
+						>PAUD
+						<span class="text-green-600"
+							>Al-Ikhlas</span
+						></a
+					>
+				</div>
+				<nav class="hidden md:flex space-x-8">
+					<a
+						href="index.html"
+						class="text-green-600 font-medium"
+						>Beranda</a
+					>
+					<a
+						href="#program"
+						class="text-gray-600 hover:text-green-600"
+						>Program</a
+					>
+					<a
+						href="#fasilitas"
+						class="text-gray-600 hover:text-green-600"
+						>Fasilitas</a
+					>
+					<a
+						href="#testimoni"
+						class="text-gray-600 hover:text-green-600"
+						>Testimoni</a
+					>
+					<a
+						href="post.html"
+						class="text-gray-600 hover:text-green-600"
+						>Artikel</a
+					>
+					<a
+						href="#kontak"
+						class="text-gray-600 hover:text-green-600"
+						>Kontak</a
+					>
+				</nav>
+				<button class="md:hidden text-gray-600">
+					<i class="fas fa-bars text-2xl"></i>
+				</button>
+			</div>
+		</header>
+
+		<!-- Hero Section -->
+		<section
+			class="hero-pattern bg-green-700 text-white py-16 md:py-24">
+			<div
+				class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+				<div class="md:w-1/2 mb-8 md:mb-0">
+					<h1 class="text-4xl md:text-5xl font-bold mb-4">
+						Membentuk Generasi
+						<span class="text-yellow-300"
+							>Sholeh dan Sholeha</span
+						>
+					</h1>
+					<p class="text-lg mb-6">
+						PAUD Al-Ikhlas memberikan pendidikan dasar
+						Islami untuk anak usia dini dengan metode
+						yang menyenangkan dan penuh kasih sayang.
+					</p>
+					<div class="flex flex-col sm:flex-row gap-4">
+						<a
+							href="#daftar"
+							class="bg-yellow-400 hover:bg-yellow-500 text-green-800 font-bold py-3 px-6 rounded-lg text-center transition"
+							>Daftar Sekarang</a
+						>
+						<a
+							href="#program"
+							class="bg-transparent hover:bg-green-800 border-2 border-white text-white font-bold py-3 px-6 rounded-lg text-center transition"
+							>Lihat Program</a
+						>
+					</div>
+				</div>
+				<div class="md:w-1/2 flex justify-center">
+					<img
+						src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80"
+						alt="Anak-anak belajar mengaji"
+						class="rounded-lg shadow-xl w-full max-w-md" />
+				</div>
+			</div>
+		</section>
+
+		<!-- Ayat Al-Quran -->
+		<section class="bg-green-50 py-8">
+			<div class="container mx-auto px-4 text-center">
+				<p
+					class="arabic text-2xl md:text-3xl text-green-800 mb-2">
+					وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ
+					ٱلْمُؤْمِنِينَ
+				</p>
+				<p class="text-gray-700">
+					"Dan tetaplah memberi peringatan, karena
+					sesungguhnya peringatan itu bermanfaat bagi
+					orang-orang yang beriman." (QS. Adz-Dzariyat: 55)
+				</p>
+			</div>
+		</section>
+
+		<!-- Program Unggulan -->
+		<section id="program" class="py-16 bg-white">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-800 mb-4">
+						Program Unggulan Kami
+					</h2>
+					<div class="w-20 h-1 bg-green-600 mx-auto"></div>
+				</div>
+
+				<div class="grid md:grid-cols-3 gap-8">
+					<!-- Program 1 -->
+					<div
+						class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border-t-4 border-green-500">
+						<div class="text-green-600 mb-4">
+							<i
+								class="fas fa-book-quran text-4xl"></i>
+						</div>
+						<h3
+							class="text-xl font-bold mb-3 text-gray-800">
+							Tahfidz Qur'an
+						</h3>
+						<p class="text-gray-600">
+							Program menghafal Al-Qur'an dengan
+							metode yang menyenangkan untuk anak
+							usia dini, dimulai dari surat-surat
+							pendek.
+						</p>
+					</div>
+
+					<!-- Program 2 -->
+					<div
+						class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border-t-4 border-yellow-400">
+						<div class="text-yellow-500 mb-4">
+							<i class="fas fa-pray text-4xl"></i>
+						</div>
+						<h3
+							class="text-xl font-bold mb-3 text-gray-800">
+							Praktik Ibadah
+						</h3>
+						<p class="text-gray-600">
+							Pembelajaran praktik ibadah
+							sehari-hari seperti wudhu, shalat,
+							doa-doa harian dengan pendekatan yang
+							mudah dipahami anak.
+						</p>
+					</div>
+
+					<!-- Program 3 -->
+					<div
+						class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border-t-4 border-blue-500">
+						<div class="text-blue-600 mb-4">
+							<i
+								class="fas fa-hands-holding-child text-4xl"></i>
+						</div>
+						<h3
+							class="text-xl font-bold mb-3 text-gray-800">
+							Pengembangan Karakter
+						</h3>
+						<p class="text-gray-600">
+							Pembentukan karakter islami melalui
+							kisah-kisah Nabi, akhlak mulia, dan
+							nilai-nilai keislaman dalam kehidupan
+							sehari-hari.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Fasilitas -->
+		<section id="fasilitas" class="py-16 bg-gray-50">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-800 mb-4">
+						Fasilitas Kami
+					</h2>
+					<div class="w-20 h-1 bg-green-600 mx-auto"></div>
+				</div>
+
+				<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+					<div
+						class="bg-white p-6 rounded-lg shadow-sm text-center">
+						<i
+							class="fas fa-school text-4xl text-green-600 mb-4"></i>
+						<h3 class="font-bold mb-2">
+							Ruang Kelas Nyaman
+						</h3>
+						<p class="text-gray-600 text-sm">
+							Ruang kelas luas dengan AC dan
+							perlengkapan belajar yang memadai.
+						</p>
+					</div>
+
+					<div
+						class="bg-white p-6 rounded-lg shadow-sm text-center">
+						<i
+							class="fas fa-book text-4xl text-green-600 mb-4"></i>
+						<h3 class="font-bold mb-2">
+							Perpustakaan Islami
+						</h3>
+						<p class="text-gray-600 text-sm">
+							Koleksi buku anak islami dan alat
+							peraga edukatif.
+						</p>
+					</div>
+
+					<div
+						class="bg-white p-6 rounded-lg shadow-sm text-center">
+						<i
+							class="fas fa-child text-4xl text-green-600 mb-4"></i>
+						<h3 class="font-bold mb-2">
+							Area Bermain Edukatif
+						</h3>
+						<p class="text-gray-600 text-sm">
+							Tempat bermain yang aman dengan
+							permainan bernuansa islami.
+						</p>
+					</div>
+
+					<div
+						class="bg-white p-6 rounded-lg shadow-sm text-center">
+						<i
+							class="fas fa-utensils text-4xl text-green-600 mb-4"></i>
+						<h3 class="font-bold mb-2">Kantin Sehat</h3>
+						<p class="text-gray-600 text-sm">
+							Menyediakan makanan halal dan bergizi
+							untuk anak-anak.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Testimoni -->
+		<section id="testimoni" class="py-16 bg-white">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-800 mb-4">
+						Apa Kata Orang Tua?
+					</h2>
+					<div class="w-20 h-1 bg-green-600 mx-auto"></div>
+				</div>
+
+				<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+					<!-- Testimoni 1 -->
+					<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+						<div class="flex items-center mb-4">
+							<img
+								src="https://randomuser.me/api/portraits/women/32.jpg"
+								alt="Ibu Siti"
+								class="w-12 h-12 rounded-full mr-4" />
+							<div>
+								<h4 class="font-bold">
+									Ibu Siti
+								</h4>
+								<p
+									class="text-sm text-gray-500">
+									Orang tua dari Aisyah
+								</p>
+							</div>
+						</div>
+						<p class="text-gray-700">
+							"Anak saya sekarang sudah hafal
+							beberapa surat pendek dan rajin
+							shalat. Terima kasih PAUD Al-Ikhlas!"
+						</p>
+						<div class="flex mt-3 text-yellow-400">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+
+					<!-- Testimoni 2 -->
+					<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+						<div class="flex items-center mb-4">
+							<img
+								src="https://randomuser.me/api/portraits/men/45.jpg"
+								alt="Budi"
+								class="w-12 h-12 rounded-full mr-4" />
+							<div>
+								<h4 class="font-bold">
+									Pak Budi
+								</h4>
+								<p
+									class="text-sm text-gray-500">
+									Orang tua dari Ali
+								</p>
+							</div>
+						</div>
+						<p class="text-gray-700">
+							"Metode pengajarannya sangat
+							menyenangkan, anak saya selalu
+							semangat berangkat sekolah."
+						</p>
+						<div class="flex mt-3 text-yellow-400">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+					</div>
+
+					<!-- Testimoni 3 -->
+					<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+						<div class="flex items-center mb-4">
+							<img
+								src="https://randomuser.me/api/portraits/women/68.jpg"
+								alt="Ibu Rina"
+								class="w-12 h-12 rounded-full mr-4" />
+							<div>
+								<h4 class="font-bold">
+									Ibu Rina
+								</h4>
+								<p
+									class="text-sm text-gray-500">
+									Orang tua dari Fatimah
+								</p>
+							</div>
+						</div>
+						<p class="text-gray-700">
+							"Guru-gurunya sangat sabar dan
+							perhatian. Anak saya berkembang dengan
+							baik di sini."
+						</p>
+						<div class="flex mt-3 text-yellow-400">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Artikel Terbaru -->
+		<section class="py-16 bg-gray-50">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-800 mb-4">
+						Artikel Terbaru
+					</h2>
+					<div class="w-20 h-1 bg-green-600 mx-auto"></div>
+				</div>
+
+				<div class="grid md:grid-cols-3 gap-8">
+					<!-- Artikel 1 -->
+					<div
+						class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+						<img
+							src="https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1392&q=80"
+							alt="Anak belajar mengaji"
+							class="w-full h-48 object-cover" />
+						<div class="p-6">
+							<span class="text-sm text-green-600"
+								>Parenting</span
+							>
+							<h3 class="font-bold text-xl my-2">
+								Cara Mengajarkan Anak Cinta
+								Al-Qur'an Sejak Dini
+							</h3>
+							<p class="text-gray-600 text-sm mb-4">
+								Beberapa tips praktis untuk
+								orang tua dalam menanamkan
+								kecintaan pada Al-Qur'an sejak
+								usia dini.
+							</p>
+							<a
+								href="post.html"
+								class="text-green-600 font-medium text-sm hover:underline"
+								>Baca Selengkapnya →</a
+							>
+						</div>
+					</div>
+
+					<!-- Artikel 2 -->
+					<div
+						class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+						<img
+							src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1375&q=80"
+							alt="Anak shalat"
+							class="w-full h-48 object-cover" />
+						<div class="p-6">
+							<span class="text-sm text-green-600"
+								>Pendidikan</span
+							>
+							<h3 class="font-bold text-xl my-2">
+								Membiasakan Anak Shalat dengan
+								Cara Menyenangkan
+							</h3>
+							<p class="text-gray-600 text-sm mb-4">
+								Strategi kreatif untuk membuat
+								anak tertarik dan terbiasa
+								melaksanakan shalat.
+							</p>
+							<a
+								href="post.html"
+								class="text-green-600 font-medium text-sm hover:underline"
+								>Baca Selengkapnya →</a
+							>
+						</div>
+					</div>
+
+					<!-- Artikel 3 -->
+					<div
+						class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+						<img
+							src="https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"
+							alt="Anak bermain"
+							class="w-full h-48 object-cover" />
+						<div class="p-6">
+							<span class="text-sm text-green-600"
+								>Kegiatan</span
+							>
+							<h3 class="font-bold text-xl my-2">
+								Manfaat Bermain dalam
+								Pembelajaran Anak Usia Dini
+							</h3>
+							<p class="text-gray-600 text-sm mb-4">
+								Bagaimana bermain dapat menjadi
+								media efektif untuk pembelajaran
+								nilai-nilai islami.
+							</p>
+							<a
+								href="post.html"
+								class="text-green-600 font-medium text-sm hover:underline"
+								>Baca Selengkapnya →</a
+							>
+						</div>
+					</div>
+				</div>
+
+				<div class="text-center mt-10">
+					<a
+						href="post.html"
+						class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition"
+						>Lihat Semua Artikel</a
+					>
+				</div>
+			</div>
+		</section>
+
+		<!-- Pendaftaran -->
+		<section id="daftar" class="py-16 bg-green-700 text-white">
+			<div class="container mx-auto px-4">
+				<div class="max-w-4xl mx-auto text-center">
+					<h2 class="text-3xl font-bold mb-6">
+						Daftarkan Putra-Putri Anda Sekarang
+					</h2>
+					<p class="text-lg mb-8">
+						Bergabunglah dengan PAUD Al-Ikhlas untuk
+						memberikan pendidikan islami terbaik bagi
+						buah hati Anda.
+					</p>
+
+					<div
+						class="bg-white rounded-lg shadow-xl p-8 text-gray-800">
+						<form>
+							<div
+								class="grid md:grid-cols-2 gap-6 mb-6">
+								<div>
+									<label
+										for="nama"
+										class="block text-left mb-2 font-medium"
+										>Nama Lengkap Orang
+										Tua</label
+									>
+									<input
+										type="text"
+										id="nama"
+										class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" />
+								</div>
+								<div>
+									<label
+										for="anak"
+										class="block text-left mb-2 font-medium"
+										>Nama Anak</label
+									>
+									<input
+										type="text"
+										id="anak"
+										class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" />
+								</div>
+								<div>
+									<label
+										for="email"
+										class="block text-left mb-2 font-medium"
+										>Email</label
+									>
+									<input
+										type="email"
+										id="email"
+										class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" />
+								</div>
+								<div>
+									<label
+										for="telp"
+										class="block text-left mb-2 font-medium"
+										>Nomor
+										Telepon</label
+									>
+									<input
+										type="tel"
+										id="telp"
+										class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" />
+								</div>
+							</div>
+							<button
+								type="submit"
+								class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition">
+								Kirim Pendaftaran
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Kontak -->
+		<section id="kontak" class="py-16 bg-white">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-800 mb-4">
+						Hubungi Kami
+					</h2>
+					<div class="w-20 h-1 bg-green-600 mx-auto"></div>
+				</div>
+
+				<div class="grid md:grid-cols-2 gap-12">
+					<div>
+						<h3 class="text-xl font-bold mb-4">
+							Informasi Kontak
+						</h3>
+						<div class="space-y-4">
+							<div class="flex items-start">
+								<i
+									class="fas fa-map-marker-alt text-green-600 mt-1 mr-4"></i>
+								<p>
+									Jl. Pendidikan No. 123,
+									Kelurahan Sejahtera,
+									Kecamatan Aman, Kota
+									Bandung, Jawa Barat
+								</p>
+							</div>
+							<div class="flex items-center">
+								<i
+									class="fas fa-phone-alt text-green-600 mr-4"></i>
+								<p>(022) 1234567</p>
+							</div>
+							<div class="flex items-center">
+								<i
+									class="fas fa-envelope text-green-600 mr-4"></i>
+								<p>info@paudalikhlas.sch.id</p>
+							</div>
+							<div class="flex items-center">
+								<i
+									class="fas fa-clock text-green-600 mr-4"></i>
+								<p>
+									Senin - Jumat: 07.30 -
+									16.00 WIB
+								</p>
+							</div>
+						</div>
+
+						<h3 class="text-xl font-bold mt-8 mb-4">
+							Sosial Media
+						</h3>
+						<div class="flex space-x-4">
+							<a
+								href="#"
+								class="bg-green-100 text-green-600 p-3 rounded-full hover:bg-green-600 hover:text-white transition">
+								<i
+									class="fab fa-facebook-f"></i>
+							</a>
+							<a
+								href="#"
+								class="bg-green-100 text-green-600 p-3 rounded-full hover:bg-green-600 hover:text-white transition">
+								<i class="fab fa-instagram"></i>
+							</a>
+							<a
+								href="#"
+								class="bg-green-100 text-green-600 p-3 rounded-full hover:bg-green-600 hover:text-white transition">
+								<i class="fab fa-youtube"></i>
+							</a>
+							<a
+								href="#"
+								class="bg-green-100 text-green-600 p-3 rounded-full hover:bg-green-600 hover:text-white transition">
+								<i class="fab fa-whatsapp"></i>
+							</a>
+						</div>
+					</div>
+
+					<div>
+						<h3 class="text-xl font-bold mb-4">
+							Peta Lokasi
+						</h3>
+						<div
+							class="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg overflow-hidden">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.800511248012!2d107.5901233152946!3d-6.917920369389843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6267a7e9a1d%3A0xbc3a8b0b6a7c3e3d!2sBandung%20City%20Hall!5e0!3m2!1sen!2sid!4v1621234567890!5m2!1sen!2sid"
+								width="100%"
+								height="100%"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="bg-gray-800 text-white py-12">
+			<div class="container mx-auto px-4">
+				<div class="grid md:grid-cols-4 gap-8">
+					<div>
+						<div
+							class="flex items-center space-x-2 mb-4">
+							<i
+								class="fas fa-mosque text-2xl text-green-400"></i>
+							<span class="text-xl font-bold"
+								>PAUD Al-Ikhlas</span
+							>
+						</div>
+						<p class="text-gray-400">
+							Membentuk generasi sholeh dan sholeha
+							melalui pendidikan islami yang
+							menyenangkan dan penuh kasih sayang.
+						</p>
+					</div>
+
+					<div>
+						<h4 class="text-lg font-bold mb-4">
+							Tautan Cepat
+						</h4>
+						<ul class="space-y-2">
+							<li>
+								<a
+									href="index.html"
+									class="text-gray-400 hover:text-green-400 transition"
+									>Beranda</a
+								>
+							</li>
+							<li>
+								<a
+									href="#program"
+									class="text-gray-400 hover:text-green-400 transition"
+									>Program</a
+								>
+							</li>
+							<li>
+								<a
+									href="#fasilitas"
+									class="text-gray-400 hover:text-green-400 transition"
+									>Fasilitas</a
+								>
+							</li>
+							<li>
+								<a
+									href="post.html"
+									class="text-gray-400 hover:text-green-400 transition"
+									>Artikel</a
+								>
+							</li>
+							<li>
+								<a
+									href="#kontak"
+									class="text-gray-400 hover:text-green-400 transition"
+									>Kontak</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<div>
+						<h4 class="text-lg font-bold mb-4">
+							Program
+						</h4>
+						<ul class="space-y-2">
+							<li>
+								<a
+									href="#"
+									class="text-gray-400 hover:text-green-400 transition"
+									>Tahfidz Qur'an</a
+								>
+							</li>
+							<li>
+								<a
+									href="#"
+									class="text-gray-400 hover:text-green-400 transition"
+									>Praktik Ibadah</a
+								>
+							</li>
+							<li>
+								<a
+									href="#"
+									class="text-gray-400 hover:text-green-400 transition"
+									>Pengembangan Karakter</a
+								>
+							</li>
+							<li>
+								<a
+									href="#"
+									class="text-gray-400 hover:text-green-400 transition"
+									>Kegiatan
+									Ekstrakurikuler</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<div>
+						<h4 class="text-lg font-bold mb-4">
+							Newsletter
+						</h4>
+						<p class="text-gray-400 mb-4">
+							Dapatkan informasi terbaru tentang
+							kegiatan dan artikel parenting islami.
+						</p>
+						<form class="flex">
+							<input
+								type="email"
+								placeholder="Email Anda"
+								class="px-4 py-2 rounded-l-lg w-full focus:outline-none text-gray-800" />
+							<button
+								type="submit"
+								class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-r-lg">
+								<i
+									class="fas fa-paper-plane"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+
+				<div
+					class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+					<p>
+						&copy; 2023 PAUD Al-Ikhlas. All rights
+						reserved.
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Back to Top Button -->
+		<a
+			href="#"
+			class="fixed bottom-6 right-6 bg-green-600 text-white p-3 rounded-full shadow-lg hover:bg-green-700 transition">
+			<i class="fas fa-arrow-up"></i>
+		</a>
+	</body>
+</html>
